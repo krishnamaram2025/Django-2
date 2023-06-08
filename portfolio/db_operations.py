@@ -5,7 +5,7 @@ import time
 def mysql_connect():
     # Establish a connection to the MySQL database
     db_con = mysql.connector.connect(
-        host="18.232.38.249",
+        host="3.238.196.73",
         user="ot39",
         password="NT27",
         database="bible"
