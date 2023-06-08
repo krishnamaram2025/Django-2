@@ -5,32 +5,23 @@ Django application to perform CRUD operations
 Backend: Django
 
 # Pre-Requisites
-$pip install Django
-
-$django-admin startproject webapp
-
-$python manage.py startapp portfolio
-
+```
+sudo yum install python3-pip
+pip3 install Django
+django-admin startproject Django
+python manage.py startapp portfolio
+```
 
 #Execution Flow
-* Clone the project:
+* Clone the project and install required packages
 ```
-$ https://github.com/krishnamaram2025/WebApp.git
-```
-
-* Install required packages:
-```
-$ cd WebApp && pip3 install -r requirements.txt
+git clone https://github.com/fullstack2025/Django.git && cd Django
+cd WebApp && pip3 install -r requirements.txt
 ```
 
-* Make migrations to database:
-```
-$ python3 manage.py makemigrations
-$ python3 manage.py migrate
-```
 * Get admin access:
 ```
-$ python3 manage.py createsuperuser (enter username, email, password)
+python3 manage.py createsuperuser
 ```
 
 * Run server:
