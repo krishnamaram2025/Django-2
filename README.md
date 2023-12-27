@@ -30,7 +30,7 @@ python manage.py runserver
 gunicorn main.wsgi --bind 0.0.0.0:8000
 ```
 
-* Testing
+* Step 4: Testing
 ```
 http://127.0.0.1:8000
 http://127.0.0.1:8000/admin
