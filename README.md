@@ -1,5 +1,5 @@
 # Title
-Django application to perform CRUD operations
+Django application to perform CRUD operations.
 
 # Technologies used
 Backend: Django
@@ -12,29 +12,26 @@ django-admin startproject Django
 python manage.py startapp portfolio
 ```
 
-#Execution Flow
-* Clone the project and install required packages
+# Execution Flow
+* Step 1: Clone the project and install required packages
 ```
-git clone https://github.com/fullstack2025/Django.git && cd Django
-cd WebApp && pip3 install -r requirements.txt
+git clone https://github.com/krishnamaram2025/Django-2.git && cd Django-2
+pip3 install -r requirements.txt
 ```
 
-* Get admin access:
+* Setp 2: Get admin access
 ```
 python3 manage.py createsuperuser
 ```
 
-* Run server:
+* Step 3: Run server
 ```
-$ python manage.py runserver
-$gunicorn main.wsgi --bind 0.0.0.0:8000
+python manage.py runserver
+gunicorn main.wsgi --bind 0.0.0.0:8000
 ```
 
 * Testing
+```
 http://127.0.0.1:8000
 http://127.0.0.1:8000/admin
-
-
-
-
-
+```
